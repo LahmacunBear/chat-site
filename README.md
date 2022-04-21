@@ -5,3 +5,5 @@ Mostly python for account management (hashing and salts too), which is run throu
 Requires ```accounts.txt``` file, and environment variable ```key``` to store and perform very simple (xor) encryption on the account/password data.
 The timeout for an account login (for the cookie and for the salt to perform) is an hour.
 The main colour scheme is white and blue, and darker blues for hovered elements.
+
+In case of an issue, incorrect password, account name already in use, timeout etc, there is automatic redirection with a (mostly) unique error message to the login page.
